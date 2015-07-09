@@ -13,7 +13,7 @@ Notes *create_notes(Notes* notes){
 //@ = note
 Notes *read_notes(Notes *notes){
 
-    FILE *f = fopen("notes.txt", "r");
+    FILE *f = fopen("notes.db", "r");
 
     int i = 0;
     int j;
@@ -53,7 +53,7 @@ Notes *read_notes(Notes *notes){
 //write data array back to file with sym in front
 void write_notes(Notes *notes){
     
-    FILE *f = fopen("notes.txt", "w");
+    FILE *f = fopen("notes.db", "w");
 
     //disclaimer
     fputs("# Warning: If this file is edited the program may fail.\n"
