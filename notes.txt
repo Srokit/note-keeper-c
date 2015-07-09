@@ -1,3 +1,0 @@
-# Warning: If this file is edited the program may fail.
-# ! = tag
-# @ = note
